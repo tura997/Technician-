@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T. Reponse Website</title>
+
+    <style>
+        body {
+            background: #080b18;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+
+        header {
+            background: #101a35;
+            padding: 30px;
+            border-bottom: 2px solid cyan;
+        }
+
+        h1 {
+            color: cyan;
+        }
+
+        section {
+            padding: 25px;
+            margin: 15px;
+        }
+
+        .work-photo {
+            width: 90%;
+            max-width: 350px;
+            border-radius: 15px;
+            border: 2px solid cyan;
+        }
+
+        .skills {
+            color: #00ffff;
+            line-height: 2;
+        }
+
+        button {
+            background: cyan;
+            color: black;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        footer {
+            background: #101a35;
+            padding: 20px;
+            color: cyan;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>T. REPONSE</h1>
+        <p>Welcome to My Personal Website</p>
+    </header>
+
+    <section>
+        <h2>Hello! I am Reponse</h2>
+        <p>
+            I am a technician interested in electricity,
+            camera installation and technology.
+        </p>
+    </section>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I enjoy learning new technical skills
+            and working with electrical and electronic systems.
+        </p>
+    </section>
+
+    <section>
+        <h2>My Skills</h2>
+        <div class="skills">
+            <p>Electrical Installation</p>
+            <p>Camera Installation</p>
+            <p>Embedded Systems</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>My Technical Work</h2>
+        <h3>Digital Timer</h3>
+
+        <img src="photo.jpg"
+             alt="My Digital Timer"
+             class="work-photo">
+
+        <p>
+            This is a digital timer used for controlling
+            electrical equipment automatically.
+        </p>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <button onclick="showMessage()">
+            Contact Me
+        </button>
+    </section>
+
+    <footer>
+        <p>© 2026 Tura. REPONSE</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("Welcome to my website!");
+        }
+    </script>
+
+</body>
+</html>
